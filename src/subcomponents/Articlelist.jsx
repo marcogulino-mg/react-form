@@ -6,6 +6,10 @@ import Article from "./Article";
 export default function Articlelist() {
   return (
     <div>
+      <form className="insert-articles" action="">
+        <input type="text" />
+        <button>Send</button>
+      </form>
       <Article articles={articles} />
     </div>
   );
