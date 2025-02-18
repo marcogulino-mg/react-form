@@ -1,11 +1,11 @@
 const articles = [
-  { id: 1, name: "Laptop", price: 1200, availability: true },
-  { id: 2, name: "Smartphone", price: 800, availability: true },
-  { id: 3, name: "Tablet", price: 500, availability: false },
-  { id: 4, name: "Cuffie Bluetooth", price: 150, availability: true },
-  { id: 5, name: "Smartwatch", price: 200, availability: false },
-  { id: 6, name: "Mouse Wireless", price: 50, availability: true },
-  { id: 7, name: "Monitor 24 pollici", price: 300, availability: true },
+  { id: 1, name: "Laptop" },
+  { id: 2, name: "Smartphone" },
+  { id: 3, name: "Tablet" },
+  { id: 4, name: "Cuffie Bluetooth" },
+  { id: 5, name: "Smartwatch" },
+  { id: 6, name: "Mouse Wireless" },
+  { id: 7, name: "Monitor 24 pollici" },
 ];
 
 export default articles;
