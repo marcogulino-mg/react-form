@@ -8,6 +8,7 @@ export default function Article(props) {
             className="trash-bin"
             src="./img/trash-solid.svg"
             alt="remove article"
+            onClick={() => props.removeArticle(article.id)}
           />
         </li>
       ))}

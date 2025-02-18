@@ -26,6 +26,13 @@ export default function Articlelist() {
     }
   };
 
+  const removeArticle = (i) => {
+    const updatedArticlesList = article.filter((article) => {
+      return article.id !== i;
+    });
+    setArticle(updatedArticlesList);
+  };
+
   return (
     <div>
       <form className="insert-articles" onSubmit={addArticle}>
@@ -36,7 +43,7 @@ export default function Articlelist() {
         />
         <button>Send</button>
       </form>
-      <Article article={article} />
+      <Article article={article} removeArticle={removeArticle} />
     </div>
   );
 }
