@@ -1,14 +1,12 @@
-//IMPORT articles
+//IMPORT articles.js
 import articles from "../data/articles";
+//IMPORT Article.jsx
+import Article from "./Article";
 
 export default function Articlelist() {
   return (
     <div>
-      <ul>
-        {articles.map((article) => (
-          <li key={article.id}>{article.name}</li>
-        ))}
-      </ul>
+      <Article articles={articles} />
     </div>
   );
 }

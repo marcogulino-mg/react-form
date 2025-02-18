@@ -73,6 +73,10 @@ header {
 /* MAIN */
 main {
   margin-top: 20px;
-  text-align: center;
   font-size: 25px;
+}
+
+.articles-list {
+  max-width: 1000px;
+  margin: 0 auto;
 }
