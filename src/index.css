@@ -86,3 +86,14 @@ main {
   justify-content: center;
   gap: 20px;
 }
+
+.article {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.trash-bin {
+  max-width: 25px;
+  cursor: pointer;
+}

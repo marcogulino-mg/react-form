@@ -16,7 +16,10 @@ export default function Articlelist() {
     e.preventDefault();
     //Se newArticle è diverso da stringa vuota allora andrò a fare l'inserimento nell'arr of objs (article)
     if (newArticle) {
-      const updatedArticlesList = [...article, { id: 8, name: newArticle }];
+      const updatedArticlesList = [
+        ...article,
+        { id: article.length + 1, name: newArticle },
+      ];
       setArticle(updatedArticlesList);
       //Reset della variabile di stato newArticle (value di input text)
       setNewArticle("");
