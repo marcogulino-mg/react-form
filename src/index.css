@@ -64,3 +64,15 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* HEADER */
+header {
+  text-align: center;
+}
+
+/* MAIN */
+main {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}

@@ -3,8 +3,8 @@ import Articlelist from "../subcomponents/Articlelist";
 
 export default function Main() {
   return (
-    <div>
+    <main>
       <Articlelist />
-    </div>
+    </main>
   );
 }
