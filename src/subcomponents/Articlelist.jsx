@@ -18,7 +18,7 @@ export default function Articlelist() {
     if (newArticle) {
       const updatedArticlesList = [
         ...article,
-        { id: article.length + 1, name: newArticle },
+        { id: article[article.length - 1].id + 1, name: newArticle },
       ];
       setArticle(updatedArticlesList);
       //Reset della variabile di stato newArticle (value di input text)
