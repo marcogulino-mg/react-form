@@ -8,6 +8,11 @@ export default function Articlelist() {
   //Variabile di stato rappresentante l'articolo
   const [newArticle, setNewArticle] = useState("");
 
+  //Funzione che non fa ricaricare la pagina quando si verifica l'evento submit
+  const handleSubmit = (e) => {
+    e.preventDefault();
+  };
+
   return (
     <div>
       <form className="insert-articles" onSubmit={handleSubmit}>
